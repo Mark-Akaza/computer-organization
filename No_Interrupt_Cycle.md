@@ -1,4 +1,5 @@
-# No Interrupt Cycle - Summary and Explanation
+# ![a](https://github.com/user-attachments/assets/ff634149-040b-42be-b18d-b6e66ee7b611)
+No Interrupt Cycle - Summary and Explanation
 
 ## 1. Overview of No Interrupt Cycle
 - In a **No Interrupt** system, the **CPU continuously checks** whether an I/O operation is complete instead of performing other tasks.
@@ -67,4 +68,3 @@ The instruction moves back to the first WRITE if the **program is designed as a 
 The **No Interrupt cycle is inefficient** because the CPU **wastes time checking I/O status instead of executing other tasks**.  
 In modern systems, **interrupt-based I/O is preferred** to avoid this problem.  
 
-🚀 This document gives a complete understanding of the No Interrupt cycle and why instructions repeat in a loop. Let me know if you need further clarifications! 😊
